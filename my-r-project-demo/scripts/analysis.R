@@ -5,9 +5,10 @@ library("dplyr")
 library("plyr")
 library(writexl)
 
+## a new version
 data_list <- import_list("Input R.xlsx")
 
-
+## Read data
 Business <- read_excel("Input R.xlsx", sheet = "Business_Input")
 Business_2 <- read_excel("Input R - 16 July.xlsx", sheet = "Business_Input_2")
 Residentials <- read_excel("Input R.xlsx", sheet = "Residentials_Input_2")
@@ -189,3 +190,4 @@ write.csv(final, file="A7.csv")
 
 
 
+# Experimental: trying alternative method
