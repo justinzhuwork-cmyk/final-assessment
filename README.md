@@ -12,4 +12,4 @@ This repository contains the completed assessment task for the Lead, Measurement
 - Git version control and repository consolidation
 - Technical writing and methodology documentation
 - R/Stan programming with reproducibility
-- AI tool usage with verification
+
